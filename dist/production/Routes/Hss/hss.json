@@ -1,9 +1,0 @@
-{
-  "HssDesiredOpState": {"object": 39680 , "attr": 844 , "index": 0, "name": "HssDesiredOpState"},
-  "HssPulseStatus": {"object": 39680 , "attr": 852 , "index": 0, "name": "HssPulseStatus"},
-  "HssPulseType": {"object": 39680 , "attr": 853, "index": 0, "name": "HssPulseType"},
-  "HssSyncStatus": {"object": 39680, "attr": 849 , "index": 0, "name": "HssSyncStatus"},
-  "HssDesiredPulseType": {"object": 39680 , "attr": 880 , "index": 0, "name": "sysObjectId"},
-  "Rfd": {"object": 36864 , "attr": 815 , "index": 0, "name": "Rfd"},
-  "HssCurrentOpState": {"object": 39680 , "attr": 846 , "index": 0, "name": "HssCurrentOpState"}
-} 
