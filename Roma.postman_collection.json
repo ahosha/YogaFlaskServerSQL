@@ -41,9 +41,37 @@
 		"d4cac487-ee4a-4d2e-a59a-13afdbb4170b"
 	],
 	"folders_order": [
-		"b106c4cc-f3b4-4f93-9c21-553ae056bfd9"
+		"b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
+		"c8821cce-0c48-46a6-81eb-4c902757fe82"
 	],
 	"folders": [
+		{
+			"id": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"name": "Classes",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "edc3ea58-1493-4a51-9067-29b7a864df7f",
+			"folder": null,
+			"order": [
+				"eb5ada2d-96c9-41d6-a0e0-ea29693ebce8",
+				"0f5d31cc-8999-4055-982f-359fb8e8d5df",
+				"5393e09c-273b-45c2-8302-de23ba906fd2",
+				"bfc825ce-fbad-4f16-8040-68e896358ff9",
+				"13e365cd-cbd3-406f-9750-5e9b158ddb5e",
+				"223951d0-88f0-47fc-9bfe-34edd82af85a",
+				"662e5712-b348-468c-8d8e-edf92041f817",
+				"116f9860-038b-4775-94fc-6c7153caed0b",
+				"c6cbb27a-8dcd-47c4-9183-4e0ef46c7f65",
+				"89fcdbd9-80d4-4708-aae8-924e603b858c",
+				"c6877c12-a81c-466e-8486-de4d7145269c",
+				"1c5b7ccc-8bfb-4d18-a101-737a30214fa5",
+				"7c6034c2-1a8b-4de7-8d03-3bf2ac5a771b",
+				"f59b9ab1-8d09-49e8-b4ce-af0c8f4f3894",
+				"8e58d425-2114-43ef-be4d-7d7142efce88"
+			],
+			"folders_order": []
+		},
 		{
 			"id": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
 			"name": "Notes",
@@ -62,6 +90,78 @@
 		}
 	],
 	"requests": [
+		{
+			"id": "0f5d31cc-8999-4055-982f-359fb8e8d5df",
+			"name": "/students",
+			"url": "http://{{target_ip}}/api/v1/yoga/students",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "116f9860-038b-4775-94fc-6c7153caed0b",
+			"name": "/student",
+			"url": "http://{{target_ip}}/api/v1/yoga/student/keren",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "13e365cd-cbd3-406f-9750-5e9b158ddb5e",
+			"name": "/lessons",
+			"url": "http://{{target_ip}}/api/v1/yoga/lessons",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
 		{
 			"id": "15f8a990-7e82-4e86-9048-f063f6f74cb0",
 			"name": "/item",
@@ -83,6 +183,59 @@
 			"auth": null,
 			"events": [],
 			"folder": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1c5b7ccc-8bfb-4d18-a101-737a30214fa5",
+			"name": "/lesson",
+			"url": "http://{{target_ip}}/api/v1/yoga/lesson/yogainramatgan",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"rawModeData": "{\"teacherid\":\"1\",\"date\":\"29052018\",\"time\":\"19.00\",\"lessontype\":\"yoga\"}",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "223951d0-88f0-47fc-9bfe-34edd82af85a",
+			"name": "/teacher",
+			"url": "http://{{target_ip}}/api/v1/yoga/teacher/moshe",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
 			"headers": "Authorization: {{auth}}\n",
 			"pathVariables": {}
 		},
@@ -134,6 +287,136 @@
 			"pathVariables": {}
 		},
 		{
+			"id": "5393e09c-273b-45c2-8302-de23ba906fd2",
+			"name": "/abonements",
+			"url": "http://{{target_ip}}/api/v1/yoga/abonements",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "662e5712-b348-468c-8d8e-edf92041f817",
+			"name": "/lessonattendance",
+			"url": "http://{{target_ip}}/api/v1/yoga/lessonattendance/1",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "7c6034c2-1a8b-4de7-8d03-3bf2ac5a771b",
+			"name": "/lesson attendance",
+			"url": "http://{{target_ip}}/api/v1/yoga/lessonattendance/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"rawModeData": "{\"lessonid\":\"1\",\"studentid\":\"1\"}",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "89fcdbd9-80d4-4708-aae8-924e603b858c",
+			"name": "/abonement",
+			"url": "http://{{target_ip}}/api/v1/yoga/abonement/weekly",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8e58d425-2114-43ef-be4d-7d7142efce88",
+			"name": "/student",
+			"url": "http://{{target_ip}}/api/v1/yoga/student/inbar",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"rawModeData": "{\"password\":\"password1\",\"firstname\":\"firstname1\",\"lastname\":\"lastname1\",\"abonementtypeid\":\"1\",\"abonementstartdate\":\"06122018\",\"active\":\"1\"}",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
 			"id": "b03b6140-4d8b-4ea2-b999-72271cfd1f4c",
 			"name": "/store",
 			"url": "http://127.0.0.1:5000/store/<string:name>",
@@ -148,6 +431,83 @@
 			"events": [],
 			"folder": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
 			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "bfc825ce-fbad-4f16-8040-68e896358ff9",
+			"name": "/lessonattendances",
+			"url": "http://{{target_ip}}/api/v1/yoga/lessonattendances",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c6877c12-a81c-466e-8486-de4d7145269c",
+			"name": "/teacher",
+			"url": "http://{{target_ip}}/api/v1/yoga/teacher/yaron",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"rawModeData": "{\"password\":\"password1\",\"firstname\":\"firstname1\",\"lastname\":\"lastname1\",\"location\":\"location1\",\"active\":\"1\"}",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c6cbb27a-8dcd-47c4-9183-4e0ef46c7f65",
+			"name": "/lesson",
+			"url": "http://{{target_ip}}/api/v1/yoga/lesson/yogainramatgan",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
 			"pathVariables": {}
 		},
 		{
@@ -231,6 +591,30 @@
 			"pathVariables": {}
 		},
 		{
+			"id": "eb5ada2d-96c9-41d6-a0e0-ea29693ebce8",
+			"name": "/teachers",
+			"url": "http://{{target_ip}}/api/v1/yoga/teachers",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
 			"id": "ec363b99-8310-488d-a1c8-04293ca20ea9",
 			"name": "/itemList",
 			"url": "http://127.0.0.1:5000/items",
@@ -245,6 +629,35 @@
 			"events": [],
 			"folder": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
 			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "f59b9ab1-8d09-49e8-b4ce-af0c8f4f3894",
+			"name": "/abonement",
+			"url": "http://{{target_ip}}/api/v1/yoga/abonement/monthly",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c8821cce-0c48-46a6-81eb-4c902757fe82",
+			"rawModeData": "{\"duration\":\"1 month\",\"price\":\"300\"}",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
 			"pathVariables": {}
 		}
 	]
