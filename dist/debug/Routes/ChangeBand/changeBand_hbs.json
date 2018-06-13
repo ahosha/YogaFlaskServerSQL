@@ -1,0 +1,9 @@
+{ 
+	"currentBandId": { "object": 39936, "attr": 993, "index": 0, "value": "" },
+	"bandsList":
+				[
+				  {
+            "ComboBandsCompressed" :  {"object": 39936 , "attr": 2090, "index": 0, "value": ""}
+				  }																					   
+				]
+}

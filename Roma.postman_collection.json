@@ -1,0 +1,251 @@
+{
+	"id": "edc3ea58-1493-4a51-9067-29b7a864df7f",
+	"name": "Roma",
+	"description": "",
+	"auth": null,
+	"events": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "6fd31859-87ac-4f1b-8e9c-3263d0326acb",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "840c52e1-ce10-41ce-afed-2b157a0c751f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variables": [
+		{
+			"key": "target_ip",
+			"value": "127.0.0.1:5000",
+			"description": "",
+			"type": "text",
+			"disabled": false
+		}
+	],
+	"order": [
+		"e636161b-b9e0-bb32-8c36-4e7f861c59e2",
+		"48e55b64-d103-4c9f-855d-3cc0d8d2227a",
+		"3199c5b8-790b-4d14-8a91-64fc4197d9b9",
+		"d4cac487-ee4a-4d2e-a59a-13afdbb4170b"
+	],
+	"folders_order": [
+		"b106c4cc-f3b4-4f93-9c21-553ae056bfd9"
+	],
+	"folders": [
+		{
+			"id": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
+			"name": "Notes",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "edc3ea58-1493-4a51-9067-29b7a864df7f",
+			"folder": null,
+			"order": [
+				"d0c9f3ab-b55f-4f78-a010-4c18af01c2b7",
+				"ec363b99-8310-488d-a1c8-04293ca20ea9",
+				"b03b6140-4d8b-4ea2-b999-72271cfd1f4c",
+				"15f8a990-7e82-4e86-9048-f063f6f74cb0"
+			],
+			"folders_order": []
+		}
+	],
+	"requests": [
+		{
+			"id": "15f8a990-7e82-4e86-9048-f063f6f74cb0",
+			"name": "/item",
+			"url": "http://127.0.0.1:5000/item/item1",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3199c5b8-790b-4d14-8a91-64fc4197d9b9",
+			"name": "/Item",
+			"url": "http://{{target_ip}}/item/item1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\"price\":\"100\",\"store_id\":\"1\"}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "48e55b64-d103-4c9f-855d-3cc0d8d2227a",
+			"name": "/Store",
+			"url": "http://{{target_ip}}/store/store1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/javascript"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "",
+			"headers": "Content-Type: application/javascript\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b03b6140-4d8b-4ea2-b999-72271cfd1f4c",
+			"name": "/store",
+			"url": "http://127.0.0.1:5000/store/<string:name>",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d0c9f3ab-b55f-4f78-a010-4c18af01c2b7",
+			"name": "/stores",
+			"url": "http://127.0.0.1:5000/stores",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d4cac487-ee4a-4d2e-a59a-13afdbb4170b",
+			"name": "/auth",
+			"url": "http://{{target_ip}}/auth",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a212fed2-4d2d-485d-a9f9-e8f66fee1c77",
+						"type": "text/javascript",
+						"exec": [
+							"let token = `JWT ${JSON.parse(responseBody).access_token}`;",
+							"pm.globals.set('auth' , token);",
+							"",
+							"console.log(token)",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": null,
+			"rawModeData": "{\r\n  \"username\": \"username1\",\r\n  \"password\": \"password1\"\r\n}\r\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e636161b-b9e0-bb32-8c36-4e7f861c59e2",
+			"name": "/register",
+			"url": "http://{{target_ip}}/register",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/javascript"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\"username\":\"username1\",\"password\":\"password1\"}",
+			"headers": "Content-Type: application/javascript\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ec363b99-8310-488d-a1c8-04293ca20ea9",
+			"name": "/itemList",
+			"url": "http://127.0.0.1:5000/items",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "b106c4cc-f3b4-4f93-9c21-553ae056bfd9",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}

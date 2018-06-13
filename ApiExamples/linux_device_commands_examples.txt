@@ -1,0 +1,15 @@
+
+############# START FLASK SERVER #############
+
+cd /root/flask/FlaskServer/
+python runserver.fcgi
+
+python /root/flask/FlaskServer/runserver.fcgi
+python /app/flask/FlaskServer/runserver.fcgi
+
+
+############# SET IP ADDRESS #############
+
+
+ifconfig br-lan 10.103.77.50 netmask 255.255.255.0 up
+route add default gw 10.103.77.11

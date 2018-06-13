@@ -1,0 +1,20 @@
+{
+  "hsuLinkState": {
+    "object": 36608,
+    "attr": 1172,
+    "index": 0
+  },
+  "ActualConnectMode": {
+    "object": 36608,
+    "attr": 1551,
+    "index": 0,
+    "name": "actualConnectMode"
+  },
+  "Cookie": {
+    "object": 8960,
+    "attr": 875,
+    "index": 0,
+    "name": "cookie"
+  },
+  "SwCapabilities" : {"object": 2560 , "attr": 1898 , "index": 0, "name": "SwCapabilities"}
+} 

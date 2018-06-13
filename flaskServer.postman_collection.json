@@ -1,0 +1,1927 @@
+{
+	"id": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+	"name": "flaskServer",
+	"description": "this collection will include routes to test flask api.",
+	"auth": null,
+	"events": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0af053c0-48c6-4c24-aa48-4818662081fa",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c210f182-2ff4-45ff-9811-fd5aaa894ba3",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variables": [
+		{
+			"id": "c65ab7c3-3356-4f7e-ba26-5b21c4361491",
+			"key": "target_ip",
+			"value": "localhost:5000",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "27aaf6fa-cf3b-43c9-bd15-486a290c0c1c",
+			"key": "27aaf6fa-cf3b-43c9-bd15-486a290c0c1c",
+			"value": "",
+			"type": "string",
+			"disabled": true,
+			"description": ""
+		}
+	],
+	"order": [],
+	"folders_order": [
+		"a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+		"5b313dc9-9d73-4e82-a863-98a7c17d329b",
+		"8c355fd8-938b-441d-9592-98e3c7b5d025",
+		"11496278-7d9f-423a-8130-4591d9ff4ef7",
+		"040b9210-4950-4b6f-b225-874387be7617",
+		"042654ff-51dc-464c-91d8-ea796a90c71f"
+	],
+	"folders": [
+		{
+			"id": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"name": "alignment",
+			"description": "this folder will contain all alignment routes.",
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": null,
+			"order": [
+				"13e44045-81e9-4c4d-920c-5ddd14c22123",
+				"9dd87430-af4b-426d-aafd-8396ea5651ea",
+				"9b3bccfb-4856-4fbd-a385-1c35a01810cd",
+				"11da0ecf-302f-4ed4-a5e8-6cf51968112c",
+				"ec4c0e48-0f41-4fb5-94d0-4e81d399a884",
+				"bf635d67-d8b6-4be2-925e-d07a0d78d714",
+				"eaa86154-4d2c-436b-a2ac-de1fdbf2b2ba",
+				"ff3ca9c8-f117-41e2-9224-4dfd8a421c4e"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "11496278-7d9f-423a-8130-4591d9ff4ef7",
+			"name": "auth",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": null,
+			"order": [
+				"5799653c-3ba7-4c07-ad28-2609b28ede18"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"name": "data",
+			"description": "this folder will contain all the data routes.",
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": null,
+			"order": [
+				"fea6797d-4a79-49db-82fb-bc0131d4bea0",
+				"6d609145-08fb-41b3-b8e3-90398731002d",
+				"1ba3deb3-7564-40f6-a57c-d14be4229f5f",
+				"b1702964-ed57-4b55-b756-37fd6da29f7b",
+				"aa3c1782-e8a5-4d49-97ad-95b307a35c86",
+				"1ad98c6a-ec6c-4982-b5ee-3f2736431914",
+				"dd0a4df7-11e2-4c7d-af12-96d62b1ae125",
+				"306715c8-8176-4bad-a51f-280e4e0cb884",
+				"38a3d561-9f43-4f46-8390-544459dd112f",
+				"566c9be2-a5c6-4d11-8c8e-e9e869d42c3c",
+				"9deb37f8-89e6-4604-8c92-c91bad7fb80a",
+				"b61ea294-dd6f-4231-b586-1fae4c2fd9f3",
+				"fb3a0069-4469-481d-8ed4-53234a30e19b"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "82e86df7-385a-4744-90da-83814ab504f5",
+			"name": "get-data",
+			"description": null,
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "fbb9e82b-6d6e-4869-818b-1d1461f4992c",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "1aae3347-9191-4913-a17e-6436d3621b4e",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": "042654ff-51dc-464c-91d8-ea796a90c71f",
+			"order": [
+				"43ec7e35-31b0-416a-8fec-a457c3ac4760",
+				"5acbf93f-09b9-4900-b179-dc1a9dffceda",
+				"15a50d1c-4976-4de7-a40b-a073f59715a5",
+				"88a633b1-aaac-43fd-acf2-d220d1259039",
+				"cf5450bf-2638-4721-b27f-a04968c0480a",
+				"6fa2b9a7-969c-4ece-a82d-f9410c2cb7e3",
+				"15939177-ffb6-4642-b84c-08162ec68f7b",
+				"331d3aec-fe0c-46e3-ace4-4acaabf582ca"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "042654ff-51dc-464c-91d8-ea796a90c71f",
+			"name": "hbs",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": null,
+			"order": [
+				"9faf3901-52a4-400c-9daf-106536e34cd6"
+			],
+			"folders_order": [
+				"4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+				"82e86df7-385a-4744-90da-83814ab504f5",
+				"86fda533-0aaf-4e4a-bc7f-1cf11e83a227"
+			]
+		},
+		{
+			"id": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"name": "operation",
+			"description": "this folder will contain all operation routes.",
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": null,
+			"order": [
+				"621358bf-d29d-4ca1-9f42-0f0f24a7c06a",
+				"dec090aa-8de8-4065-8753-10b9a1715be3",
+				"8475e131-d19d-474b-9472-562317f1dc0e",
+				"717185f1-11e7-477a-9c22-41063425f1cd",
+				"f6d40935-acf1-4967-beb3-b0732eb641ba",
+				"c890ab23-c9b0-4d55-8fa2-e34b84dc75e5",
+				"72fa4360-c0ed-4f9d-82ff-40459afb441b",
+				"31675f6a-5f53-4f71-a0c4-b0317be0545e",
+				"75c5d335-214b-4663-98da-3fa83484fa57",
+				"c7cf640a-65bf-4c7a-adae-76ac91ceb607"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "040b9210-4950-4b6f-b225-874387be7617",
+			"name": "post-data",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": null,
+			"order": [
+				"038fca0f-d1fe-4a50-b987-c58593be723b",
+				"e690961c-7e7e-4f84-8a56-a6da8056651a",
+				"4fbc28c7-af6d-46fd-9155-0beb381064ad"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"name": "post-data",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": "042654ff-51dc-464c-91d8-ea796a90c71f",
+			"order": [
+				"d620b6dd-227a-4e81-8a2d-a0730c5e3b2e",
+				"be07deb3-a7db-4075-bb13-54481ed753e6",
+				"e4a40e07-47f9-4ebc-9eab-4c7b7bb9dee3",
+				"fa37df79-e7fa-4ba7-acba-e973bb973b26",
+				"d54cfb8b-fe3c-4529-9d33-d60f2f4ec931",
+				"91a139e9-b991-47c6-a747-408459e47df0",
+				"8a8f7143-794e-4aa6-9a5b-2511b2e317c4"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"name": "remote",
+			"description": "this folder wil contain all the remote data / operaton from hbs to hsus",
+			"auth": null,
+			"events": null,
+			"collection": "ec8211cc-39b5-4e0e-9abd-80edc1ab6d01",
+			"folder": "042654ff-51dc-464c-91d8-ea796a90c71f",
+			"order": [
+				"7e22ae5f-8d57-40ed-9bbd-6376a14cd9e4",
+				"c7010fe9-f3f2-4f42-adba-f2a39060fe65",
+				"81fd601f-929d-477d-8146-f50de2d50beb",
+				"a16503f0-9a48-48cd-a74b-9ac2d2ca4bd7",
+				"8d4eba85-bfe3-4c7f-b87c-7aae0932ded5",
+				"7046dd14-95cf-42ba-8389-f7b12d4e5fb8",
+				"7e577b50-476d-4b76-bb92-cf50095746ef"
+			],
+			"folders_order": []
+		}
+	],
+	"requests": [
+		{
+			"id": "038fca0f-d1fe-4a50-b987-c58593be723b",
+			"name": "/radio",
+			"url": "http://{{target_ip}}/api/v1/data/radio",
+			"description": "this req test the radio route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "040b9210-4950-4b6f-b225-874387be7617",
+			"rawModeData": "{\"frequencies\":\"5740,5745,5750\",\"isShouldResync\":false}",
+			"headers": "Authorization: {{auth}}\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "11da0ecf-302f-4ed4-a5e8-6cf51968112c",
+			"name": "/link-data",
+			"url": "http://{{target_ip}}/api/v1/alignment/link-data",
+			"description": "this req test the link-data route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "13e44045-81e9-4c4d-920c-5ddd14c22123",
+			"name": "/get-bands",
+			"url": "http://{{target_ip}}/api/v1/alignment/get-bands",
+			"description": "this req test the get-bands route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "15939177-ffb6-4642-b84c-08162ec68f7b",
+			"name": "/activation/activate",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation/antenna",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "15a50d1c-4976-4de7-a40b-a073f59715a5",
+			"name": "/activation/link",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation/link",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1ad98c6a-ec6c-4982-b5ee-3f2736431914",
+			"name": "/hss",
+			"url": "http://{{target_ip}}/api/v1/data/hss",
+			"description": "this req test the hss route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1ba3deb3-7564-40f6-a57c-d14be4229f5f",
+			"name": "/system",
+			"url": "http://{{target_ip}}/api/v1/data/system",
+			"description": "this req test the system route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "306715c8-8176-4bad-a51f-280e4e0cb884",
+			"name": "/flaskversion",
+			"url": "http://{{target_ip}}/api/v1/data/flaskversion",
+			"description": "this req test the flaskversion route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "31675f6a-5f53-4f71-a0c4-b0317be0545e",
+			"name": "/diagnostic",
+			"url": "http://{{target_ip}}/api/v1/operations/diagnostics",
+			"description": "this req test the diagnostic route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "331d3aec-fe0c-46e3-ace4-4acaabf582ca",
+			"name": "/service/register Copy",
+			"url": "http://{{target_ip}}/api/v1/hbs/service/register",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "38a3d561-9f43-4f46-8390-544459dd112f",
+			"name": "/recent-event",
+			"url": "http://{{target_ip}}/api/v1/data/recent-events",
+			"description": "this req test the recent-event route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "43ec7e35-31b0-416a-8fec-a457c3ac4760",
+			"name": "/service/register",
+			"url": "http://{{target_ip}}/api/v1/hbs/service/register",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "4fbc28c7-af6d-46fd-9155-0beb381064ad",
+			"name": "/auth",
+			"url": "http://{{target_ip}}/auth",
+			"description": "this req test the get-bands route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "60fdd0b0-521e-4cce-8282-4f30b9cb6e76",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2b71dd30-a346-4d6b-8b69-65499542ca54",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"let token = `JWT ${JSON.parse(responseBody).access_token}`;",
+							"pm.globals.set('auth' , token);",
+							"",
+							"console.log(token)",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "040b9210-4950-4b6f-b225-874387be7617",
+			"rawModeData": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"netman\"\r\n}\r\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "566c9be2-a5c6-4d11-8c8e-e9e869d42c3c",
+			"name": "/active-alarms",
+			"url": "http://{{target_ip}}/api/v1/data/active-alarms",
+			"description": "this req test the recent-event route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5799653c-3ba7-4c07-ad28-2609b28ede18",
+			"name": "/auth",
+			"url": "http://{{target_ip}}/auth",
+			"description": "this req test the get-bands route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "60fdd0b0-521e-4cce-8282-4f30b9cb6e76",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2b71dd30-a346-4d6b-8b69-65499542ca54",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"let token = `JWT ${JSON.parse(responseBody).access_token}`;",
+							"pm.globals.set('auth' , token);",
+							"",
+							"console.log(token)",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "11496278-7d9f-423a-8130-4591d9ff4ef7",
+			"rawModeData": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"netman\"\r\n}\r\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5acbf93f-09b9-4900-b179-dc1a9dffceda",
+			"name": "/service/update-service",
+			"url": "http://{{target_ip}}/api/v1/hbs/service/update-service",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "621358bf-d29d-4ca1-9f42-0f0f24a7c06a",
+			"name": "/speed-test/start",
+			"url": "http://{{target_ip}}/api/v1/operations/speed-test/start",
+			"description": "this req test the speed-test/start route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6d609145-08fb-41b3-b8e3-90398731002d",
+			"name": "/devicemode",
+			"url": "http://{{target_ip}}/api/v1/data/devicemode",
+			"description": "this req test the devicemode route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "fca65b54-52c3-4640-8fe3-7a97df4a4578",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6fa2b9a7-969c-4ece-a82d-f9410c2cb7e3",
+			"name": "/activation/antenna",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation/antenna",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "7046dd14-95cf-42ba-8389-f7b12d4e5fb8",
+			"name": "/hsudevices",
+			"url": "http://{{target_ip}}/api/v1/data/hsudevices",
+			"description": "this req test the hsudevices route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "717185f1-11e7-477a-9c22-41063425f1cd",
+			"name": "/reset",
+			"url": "http://{{target_ip}}/api/v1/operations/reset-remote",
+			"description": "this req test the speed-test/data route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "72fa4360-c0ed-4f9d-82ff-40459afb441b",
+			"name": "/trace",
+			"url": "http://{{target_ip}}/api/v1/operations/trace",
+			"description": "this req test the trace route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "75c5d335-214b-4663-98da-3fa83484fa57",
+			"name": "/change-band",
+			"url": "http://{{target_ip}}/api/v1/operations/change-band",
+			"description": "this req test the diagnostic route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "7e22ae5f-8d57-40ed-9bbd-6376a14cd9e4",
+			"name": "/membership",
+			"url": "http://{{target_ip}}/api/v1/data/membership",
+			"description": "this req test the membership route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "7e577b50-476d-4b76-bb92-cf50095746ef",
+			"name": "/tables",
+			"url": "http://{{target_ip}}/api/v1/data/tables",
+			"description": "this req test the hsudevices route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "81fd601f-929d-477d-8146-f50de2d50beb",
+			"name": "/qos",
+			"url": "http://{{target_ip}}/api/v1/data/qos",
+			"description": "this req test the config route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8475e131-d19d-474b-9472-562317f1dc0e",
+			"name": "/speed-test/data",
+			"url": "http://{{target_ip}}/api/v1/operations/speed-test/data",
+			"description": "this req test the speed-test/data route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "88a633b1-aaac-43fd-acf2-d220d1259039",
+			"name": "/activation/network",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation/network",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8a8f7143-794e-4aa6-9a5b-2511b2e317c4",
+			"name": "/activation/deactivate",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation/deactivate",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8d4eba85-bfe3-4c7f-b87c-7aae0932ded5",
+			"name": "/category",
+			"url": "http://{{target_ip}}/api/v1/data/category",
+			"description": "this req test the config route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "91a139e9-b991-47c6-a747-408459e47df0",
+			"name": "/activation",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9b3bccfb-4856-4fbd-a385-1c35a01810cd",
+			"name": "/init-values",
+			"url": "http://{{target_ip}}/api/v1/alignment/init-values",
+			"description": "this req test the init-values route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9dd87430-af4b-426d-aafd-8396ea5651ea",
+			"name": "/evaluation-results",
+			"url": "http://{{target_ip}}/api/v1/alignment/evaluation-results",
+			"description": "this req test the evaluation-results route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9deb37f8-89e6-4604-8c92-c91bad7fb80a",
+			"name": "/traps-destinations",
+			"url": "http://{{target_ip}}/api/v1/data/traps-destinations",
+			"description": "this req test the traps-destinations route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"rawModeData": "[{\"hostIndex\":\"6\",\"hostIp\":\"0.0.0.6\",\"hostPort\":\"166\"}]",
+			"headers": "Authorization: {{auth}}\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9faf3901-52a4-400c-9daf-106536e34cd6",
+			"name": "/auth",
+			"url": "http://{{target_ip}}/auth",
+			"description": "this req test the get-bands route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "60fdd0b0-521e-4cce-8282-4f30b9cb6e76",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2b71dd30-a346-4d6b-8b69-65499542ca54",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"let token = `JWT ${JSON.parse(responseBody).access_token}`;",
+							"pm.globals.set('auth' , token);",
+							"",
+							"console.log(token)",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "042654ff-51dc-464c-91d8-ea796a90c71f",
+			"rawModeData": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"netman\"\r\n}\r\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a16503f0-9a48-48cd-a74b-9ac2d2ca4bd7",
+			"name": "/vlan",
+			"url": "http://{{target_ip}}/api/v1/data/vlan",
+			"description": "this req test the config route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "aa3c1782-e8a5-4d49-97ad-95b307a35c86",
+			"name": "/radio",
+			"url": "http://{{target_ip}}/api/v1/data/radio",
+			"description": "this req test the radio route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b1702964-ed57-4b55-b756-37fd6da29f7b",
+			"name": "/monitor",
+			"url": "http://{{target_ip}}/api/v1/data/monitor",
+			"description": "this req test the monitor route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b61ea294-dd6f-4231-b586-1fae4c2fd9f3",
+			"name": "/wifi",
+			"url": "http://{{target_ip}}/api/v1/data/wifi",
+			"description": "this req test the wifi route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "be07deb3-a7db-4075-bb13-54481ed753e6",
+			"name": "/service/register",
+			"url": "http://{{target_ip}}/api/v1/hbs/service/register",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "bf635d67-d8b6-4be2-925e-d07a0d78d714",
+			"name": "/measuring",
+			"url": "http://{{target_ip}}/api/v1/alignment/measuring",
+			"description": "this req test the measuring route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c7010fe9-f3f2-4f42-adba-f2a39060fe65",
+			"name": "/config",
+			"url": "http://{{target_ip}}/api/v1/data/config",
+			"description": "this req test the config route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "4fb6701c-10e5-4728-b8a3-dfd100dc6660",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c7cf640a-65bf-4c7a-adae-76ac91ceb607",
+			"name": "/sepctorm/start",
+			"url": "http://{{target_ip}}/api/v1/operations/spectrum/start?min=5730&max=5845&duration=120 ",
+			"description": "this req test the sepctorm/start route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "min",
+					"value": "5730"
+				},
+				{
+					"key": "max",
+					"value": "5845"
+				},
+				{
+					"key": "duration",
+					"value": "120 "
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c890ab23-c9b0-4d55-8fa2-e34b84dc75e5",
+			"name": "/ping",
+			"url": "http://{{target_ip}}/api/v1/operations/ping",
+			"description": "this req test the ping route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"rawModeData": "{\"ip\": \"10.0.0.160\", \"packetCount\": \"5\", \"packetSize\": \"5\"}",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "cf5450bf-2638-4721-b27f-a04968c0480a",
+			"name": "/activation/radio",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation/radio",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "82e86df7-385a-4744-90da-83814ab504f5",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d54cfb8b-fe3c-4529-9d33-d60f2f4ec931",
+			"name": "/service/deregister",
+			"url": "http://{{target_ip}}/api/v1/hbs/service/deregister",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"rawModeData": "{\r\n  \"operation\": \"unregisterAndSuspend\",\r\n  \"macAddress\": \"string\",\r\n  \"parameter\": \"string\",\r\n  \"hsuId\": \"string\",\r\n  \"time\": \"0\"\r\n}",
+			"headers": "Authorization: {{auth}}\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d620b6dd-227a-4e81-8a2d-a0730c5e3b2e",
+			"name": "/activation/activate",
+			"url": "http://{{target_ip}}/api/v1/hbs/activation/activate",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "dd0a4df7-11e2-4c7d-af12-96d62b1ae125",
+			"name": "/network",
+			"url": "http://{{target_ip}}/api/v1/data/network",
+			"description": "this req test the network route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "dec090aa-8de8-4065-8753-10b9a1715be3",
+			"name": "/speed-test/stop",
+			"url": "http://{{target_ip}}/api/v1/operations/speed-test/stop",
+			"description": "this req test the speed-test/stop route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e4a40e07-47f9-4ebc-9eab-4c7b7bb9dee3",
+			"name": "/service/evaluate",
+			"url": "http://{{target_ip}}/api/v1/hbs/service/evaluate",
+			"description": "this req test the service/evaluate route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e690961c-7e7e-4f84-8a56-a6da8056651a",
+			"name": "/traps-destinations",
+			"url": "http://{{target_ip}}/api/v1/data/traps-destinations",
+			"description": "this req test the traps-destinations route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "040b9210-4950-4b6f-b225-874387be7617",
+			"rawModeData": "[{\"hostIndex\":\"3\",\"hostIp\":\"0.0.0.0\",\"securityModel\":\"3\",\"username\":\"test\",\"hostPort\":\"162\"}]",
+			"headers": "Authorization: {{auth}}\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "eaa86154-4d2c-436b-a2ac-de1fdbf2b2ba",
+			"name": "/start",
+			"url": "http://{{target_ip}}/api/v1/alignment/action/start",
+			"description": "this req test the best-position route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ec4c0e48-0f41-4fb5-94d0-4e81d399a884",
+			"name": "/best-position",
+			"url": "http://{{target_ip}}/api/v1/alignment/best-position",
+			"description": "this req test the best-position route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ec09940e-c38a-41f2-b88a-c506334de375",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\"ip\":\"10.0.0.160\"}\r\n",
+			"headers": "Content-Type: application/json\nAuthorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f6d40935-acf1-4967-beb3-b0732eb641ba",
+			"name": "/resync",
+			"url": "http://{{target_ip}}/api/v1/operations/reset",
+			"description": "this req test the resync route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "a62c8a2d-f066-4f3f-b3ba-b692edfeea88",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "fa37df79-e7fa-4ba7-acba-e973bb973b26",
+			"name": "/service/update-service",
+			"url": "http://{{target_ip}}/api/v1/hbs/service/update-service",
+			"description": "this req test the service/register route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "86fda533-0aaf-4e4a-bc7f-1cf11e83a227",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "fb3a0069-4469-481d-8ed4-53234a30e19b",
+			"name": "/preformance-monitor",
+			"url": "http://{{target_ip}}/api/v1/data/preformance-monitor",
+			"description": "this req test the hss route.",
+			"data": [],
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{auth}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"headers": "Authorization: {{auth}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "fea6797d-4a79-49db-82fb-bc0131d4bea0",
+			"name": "/auth",
+			"url": "http://{{target_ip}}/auth",
+			"description": "this req test the auth route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "60fdd0b0-521e-4cce-8282-4f30b9cb6e76",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2b71dd30-a346-4d6b-8b69-65499542ca54",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"let token = `JWT ${JSON.parse(responseBody).access_token}`;",
+							"pm.globals.set('auth' , token);",
+							"",
+							"console.log(token)",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "5b313dc9-9d73-4e82-a863-98a7c17d329b",
+			"rawModeData": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"netman\"\r\n}\r\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ff3ca9c8-f117-41e2-9224-4dfd8a421c4e",
+			"name": "/auth",
+			"url": "http://{{target_ip}}/auth",
+			"description": "this req test the auth route.",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "60fdd0b0-521e-4cce-8282-4f30b9cb6e76",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2b71dd30-a346-4d6b-8b69-65499542ca54",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"let token = `JWT ${JSON.parse(responseBody).access_token}`;",
+							"pm.globals.set('auth' , token);",
+							"",
+							"console.log(token)",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"folder": "8c355fd8-938b-441d-9592-98e3c7b5d025",
+			"rawModeData": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"netman\"\r\n}\r\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}

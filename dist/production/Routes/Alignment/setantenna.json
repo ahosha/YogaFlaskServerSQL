@@ -1,0 +1,21 @@
+
+  {
+    "antennaConnectionType": {
+      "object": 36864,
+      "attr": 1237,
+      "index": 0
+    },
+    "antennaGain": {
+      "object": 36864,
+      "attr": 918,
+      "index": 0
+    },
+    "cableLoss": {
+      "object": 36864,
+      "attr": 919,
+      "index": 0
+    }
+    
+  }
+
+

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6bc331b2-285b-4d9c-97df-ff358b3f4cec</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+    <StaticUriPattern>^/static/.*</StaticUriPattern>
+    <StaticUriRewrite>^/$(MSBuildProjectName)/static/.*</StaticUriRewrite>
+    <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
+    <Name>FlaskServer</Name>
+    <RootNamespace>FlaskServer</RootNamespace>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <InterpreterId>
+    </InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
+    <NameOfLastUsedPublishProfile>NmsDevFlask</NameOfLastUsedPublishProfile>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FlaskServer\BL\UlcBaseServer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\common\db\__init__.py" />
+    <Compile Include="FlaskServer\common\__init__.py" />
+    <Compile Include="FlaskServer\consts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\errorhandlers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\logger.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\serverstate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\setting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\singleton.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\timer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\radlogger.py" />
+    <Compile Include="FlaskServer\db.py" />
+    <Compile Include="FlaskServer\Users\models\item.py" />
+    <Compile Include="FlaskServer\Users\models\store.py" />
+    <Compile Include="FlaskServer\Users\models\user.py" />
+    <Compile Include="FlaskServer\Users\models\__init__.py" />
+    <Compile Include="FlaskServer\Users\resources\item.py" />
+    <Compile Include="FlaskServer\Users\resources\store.py" />
+    <Compile Include="FlaskServer\Users\resources\user.py" />
+    <Compile Include="FlaskServer\Users\resources\__init__.py" />
+    <Compile Include="FlaskServer\Users\security.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\Users\__init__.py" />
+    <Compile Include="build.py" />
+    <Compile Include="FlaskServer\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskServer\yogaclasses\models\abonement.py" />
+    <Compile Include="FlaskServer\yogaclasses\models\lessons.py" />
+    <Compile Include="FlaskServer\yogaclasses\models\lessonsattendance.py" />
+    <Compile Include="FlaskServer\yogaclasses\models\students.py" />
+    <Compile Include="FlaskServer\yogaclasses\models\teachers.py" />
+    <Compile Include="FlaskServer\yogaclasses\models\__init__.py" />
+    <Compile Include="FlaskServer\yogaclasses\resources\abonement.py" />
+    <Compile Include="FlaskServer\yogaclasses\resources\lesson.py" />
+    <Compile Include="FlaskServer\yogaclasses\resources\students.py" />
+    <Compile Include="FlaskServer\yogaclasses\resources\lessonsattendance.py" />
+    <Compile Include="FlaskServer\yogaclasses\resources\teachers.py" />
+    <Compile Include="FlaskServer\yogaclasses\resources\__init__.py" />
+    <Compile Include="FlaskServer\yogaclasses\__init__.py" />
+    <Compile Include="runserver.py" />
+    <Compile Include="FlaskServer\__init__.py" />
+    <Compile Include="runtester.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FlaskServer\" />
+    <Folder Include="FlaskServer\BL\" />
+    <Folder Include="FlaskServer\common\" />
+    <Folder Include="FlaskServer\common\db\" />
+    <Folder Include="FlaskServer\yogaclasses\" />
+    <Folder Include="FlaskServer\Users\" />
+    <Folder Include="FlaskServer\Users\models\" />
+    <Folder Include="FlaskServer\Users\resources\" />
+    <Folder Include="FlaskServer\yogaclasses\models\" />
+    <Folder Include="FlaskServer\yogaclasses\resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

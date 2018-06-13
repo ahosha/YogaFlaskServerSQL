@@ -1,0 +1,22 @@
+ERROR test_log(12) <type 'exceptions.NameError'>: global name 'DEVICE_MODE' is not defined
+ERROR test_log(13) None
+ERROR test_log(12) <type 'exceptions.NameError'>: global name 'DEVICE_MODE' is not defined
+ERROR test_log(13) None
+ERROR test_log(12) <type 'exceptions.NameError'>: global name 'DEVICE_MODE' is not defined
+ERROR test_log(13) None
+ERROR test_log(12) <type 'exceptions.NameError'>: global name 'DEVICE_MODE' is not defined
+ERROR test_log(13) None
+ERROR test_log(13) <type 'exceptions.NameError'>: global name 'DEVICE_MODE' is not defined
+ERROR test_log(14) None
+ERROR test_log(14) None
+ERROR test_log(14) None
+ERROR test_log(14) None
+ERROR test_log(13) test: exec_info[1]
+ERROR test_log(13) test: exec_info[1]
+ERROR test_log(13) test: exec_info[1]
+ERROR test_log(14) <type 'exceptions.NameError'>: global name 'DEVICE_MODE' is not defined
+ERROR test_log(15) None
+ERROR <module>(1) None 
+ERROR test_log(15) None 
+ERROR test_log(14) global name 'DEVICE_MODE' is not defined
+ERROR test_log(15) None 

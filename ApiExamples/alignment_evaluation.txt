@@ -1,0 +1,22 @@
+BASE URL: /api/v1/alignment/evaluation
+
+All posts without payloads
+
+POST /api/v1/alignment/evaluation/start
+POST /api/v1/alignment/evaluation/stop
+
+
+
+Responses Positive:
+{
+  "data": {
+    "message": "Done"
+    }
+}
+
+Responses Negative:
+{
+  "error": {
+    "message": "Error occurred"
+    }
+}

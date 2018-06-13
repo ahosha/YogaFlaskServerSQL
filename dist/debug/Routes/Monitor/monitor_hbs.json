@@ -1,0 +1,15 @@
+{
+    "sectorId": { "object": 36608, "attr": 1253, "index": 1 },
+    "currentFrequency": { "object": 36864, "attr": 679, "index": 1 },
+    "hbsAirState": { "object": 36608 , "attr": 1168 , "index": 0 },
+    "upTime": { "object": 8960, "attr": 535, "index": 0 },
+    "activeAlarmsCounter": { "object": 9728, "attr": 1935, "index": 0 },
+    "realTimeAndDate": { "object": 39168, "attr": 792, "index": 0 },
+    "hbsAirCompressedMonitor": { "object": 36608 , "attr": 1195 , "index": 0 },
+    "hbsAirLinkCompressedMonitor": { "object": 36608 , "attr": 1188 , "index": 1 },
+    "configMonitor": {
+        "currentTxPower": { "object": 36864, "attr": 645, "index": 1 },
+        "totalTxPower": { "object": 36864, "attr": 967, "index": 1 },
+        "maxEirp": { "object": 36864, "attr": 1402, "index": 1 }
+    }
+}

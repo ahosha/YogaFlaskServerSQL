@@ -1,0 +1,77 @@
+Load training scenario to ULC (POST method with payload)
+
+POST /api/v1/training/load-scenario
+
+{
+    "HSU":{
+            "azimutBeamwidth": 10,
+        "elevationBeamwidth": 10,
+        "hsuId": 256,
+        "hsuLinkState": "Not Synchronised",
+        "hsuServiceType": "New Fixed",
+        "numOfElevationZones": 3,
+        "radiusInstallConfirmationRequired": "false",
+		"apiVersion": "2",
+		"macAddress": "0015675ed9ca",
+		"antennaConnectionType": "Embedded External",
+		"antennaGain": 200,
+		"cableLoss": 10,
+		"minAntennaGain": 0,
+		"maxAntennaGain": 250,
+		"HbsIp": "10.0.0.128",
+		"HbsName": "TrainingHBSName",
+		"HbsLocation": "TrainingHbsLocation",
+		"sectorID": "Trainig_Mode"
+    },
+    "HBS": [
+    {
+      "antennaBeamwidth": 0,
+      "availableResourcesDL": 90,
+      "availableResourcesUL": 90,
+      "bestEffortEnabled": true,
+      "bestRSS": -60,
+      "channel": 5800,
+      "channelBw": 20,
+      "cursorLocation": {
+        "elevation": 2,
+        "horizontal": 30
+      },
+      "latitude": 34.564321,
+      "longitude": 32.321,
+      "sectorDirection": 0,
+      "sectorID": "RADWIN_DEMO1",
+      "sectorIdMatched": true,
+      "sectorType": "Gen4",
+      "DownLink": 1250000,
+      "UpLink": 1250000,
+      "FineBestRss": -58,
+      "FineElevation": 3,
+      "FineHorizontal": 32
+    },
+    {
+      "antennaBeamwidth": 0,
+      "availableResourcesDL": 90,
+      "availableResourcesUL": 90,
+      "bestEffortEnabled": true,
+      "bestRSS": -65,
+      "channel": 5750,
+      "channelBw": 20,
+      "cursorLocation": {
+        "elevation": 3,
+        "horizontal": -20
+      },
+      "latitude": 34.564321,
+      "longitude": 32.321,
+      "sectorDirection": 0,
+      "sectorID": "RADWIN_DEMO2",
+      "sectorIdMatched": true,
+      "sectorType": "Gen4",
+      "DownLink": 1250000,
+      "UpLink": 1250000,
+      "FineBestRss": -68,
+      "FineElevation": 2,
+      "FineHorizontal": -22
+    }
+  ]
+} 
+

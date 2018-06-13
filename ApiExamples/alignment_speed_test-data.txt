@@ -1,0 +1,13 @@
+
+
+GET /api/v1/alignment/speed-test/data
+
+{
+    "data": {
+        "CurrentRateIdx": "144Mbps (2x64-QAM 5/6) 20MHz",
+        "DownLink": 0,
+        "LinkState": "syncRegistered",
+        "UpLink": 0,
+        "hbsModulationRate": "144Mbps (2x64-QAM 5/6) 20MHz"
+    }
+}

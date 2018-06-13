@@ -1,0 +1,33 @@
+ GET /api/v1/data/battery
+
+
+{
+  "data": {
+    "BatteryCapacity": "2600.0", 
+    "BatteryCapacityThreshold": "30", 
+    "BatteryCharging": "", 
+    "BatteryCurrent": "0.0", 
+    "BatteryCurrentHysteresis": "0", 
+    "BatteryCurrentMax": "600", 
+    "BatteryCurrentMin": "-8000", 
+    "BatteryDeviceName": "ELI-134", 
+    "BatteryManufacture": "EPSILOR", 
+    "BatteryNominalCapacity": "2600.0", 
+    "BatteryNominalVoltage": "3600.0", 
+    "BatteryOutput": "", 
+    "BatteryRemainingRunTime": "65535", 
+    "BatterySerialNumber": "1", 
+    "BatteryStatus": "Stand-By", 
+    "BatteryTemperature": "29", 
+    "BatteryTemperatureHysteresis": "0", 
+    "BatteryTemperatureMax": "60", 
+    "BatteryTemperatureMin": "-10", 
+    "BatteryVoltage": "49.37", 
+    "BatteryVoltageHysteresis": "0", 
+    "BatteryVoltageMax": "1000", 
+    "BatteryVoltageMin": "38", 
+    "BetteryLevel": "100", 
+    "PowerSource": "Power-Supply", 
+    "Temprature": "29"
+  }
+}

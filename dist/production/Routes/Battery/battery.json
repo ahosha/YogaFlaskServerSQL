@@ -1,0 +1,30 @@
+{
+    "BatteryCapacityThreshold":       {"object": 50688, "attr": 2008, "index": 0},
+    "BatteryTemperatureHysteresis":   {"object": 50688, "attr": 2044, "index": 0},
+    "BatteryVoltageHysteresis":       {"object": 50688, "attr": 2047, "index": 0},
+    "BatteryCurrentHysteresis":       {"object": 50688, "attr": 2057, "index": 0}, 
+    "BetteryLevel"  :                 {"object": 50688, "attr": 2083,"index": 0, "name": "BatteryCapacity"},
+    "PowerSource":                    {"object": 50688, "attr":2088,"index": 0, "name": "BatteryIsActive"},
+    "BatteryCapacity":                {"object": 50688, "attr":2077,"index": 0,"name": "BatteryNominalCapacity"},
+    "BatteryStatus":                  {"object": 50688, "attr":2133,"index": 0, "name": "BatteryStatus"},
+    "BatteryRemainingRunTime": {"object": 50688,"attr": 2082,"index": 0,"name": "BatteryRemainingRunTime"},
+    "BatteryNominalVoltage": { "object": 50688, "attr": 2076, "index": 0, "name": "BatteryNominalVoltage" },
+    "BatteryNominalCapacity": { "object": 50688, "attr": 2077, "index": 0, "name": "BatteryNominalCapacity" },
+    "BatteryTemperature": { "object": 50688, "attr": 2079, "index": 0, "name": "BatteryTemperature" },
+    "BatteryTemperatureMin": { "object": 50688, "attr": 2042, "index": 0, "name": "BatteryTemperatureMin"},
+    "BatteryTemperatureMax": { "object": 50688, "attr": 2043, "index": 0, "name": "BatteryTemperatureMax" },
+    "BatteryDeviceName": { "object": 50688, "attr": 2070, "index": 0, "name": "BatteryDeviceName" },
+    "BatteryManufacture": { "object": 50688, "attr": 2071, "index": 0, "name": "BatteryManufacture" },
+    "BatterySerialNumber": { "object": 50688, "attr": 2072, "index": 0, "name": "BatterySerialNumber" },
+    "BatteryVoltage": { "object": 50688, "attr": 2080, "index": 0, "name": "BatteryVoltage" },
+    "BatteryVoltageMin": { "object": 50688, "attr": 2045, "index": 0, "name": "BatteryVoltageMin" },
+    "BatteryVoltageMax": { "object": 50688, "attr": 2046, "index": 0, "name": "BatteryVoltageMax" },
+    "BatteryCurrent": { "object": 50688, "attr": 2081, "index": 0, "name": "BatteryCurrent" },
+    "BatteryCurrentMin": { "object": 50688, "attr": 2048, "index": 0, "name": "BatteryCurrentMin" },
+    "BatteryCurrentMax": { "object": 50688, "attr": 2049, "index": 0, "name": "BatteryCurrentMax" },
+    "Temprature": { "object": 50688, "attr": 2079, "index": 0, "name": "BatteryTemperature" },
+	"BatteryCharging": { "object": 50688, "attr": 2135, "index": 0, "name": "BatteryCharging" },
+	"BatteryOutput": { "object": 50688, "attr": 2136, "index": 0, "name": "BatteryOutput" }
+  }
+  
+  

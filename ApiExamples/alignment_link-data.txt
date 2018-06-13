@@ -1,0 +1,19 @@
+
+GET /api/v1/alignment/link-data
+
+{
+  "data": {
+    "antennaConnectionType": "Integrated",
+    "currentBand": "5.730-5.845 GHz FCC/IC",
+    "currentBandId": "5KDR/F58/SU/25/FCC/INT",
+    "currentCbw": "20",
+    "frequency": "5820",
+    "hsuAirState": "Alignment Required",
+    "hsuLinkState": "Not Synchronized",
+    
+    "sectorType": "Gen3"
+  }
+}
+
+
+

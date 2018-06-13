@@ -1,0 +1,27 @@
+Authentication
+
+Login to ULC (POST method with payload)
+
+POST /auth
+{
+  "username": "admin",
+  "password": "netman"
+}
+
+Positive Response :
+{
+"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6MSwiaWF0IjoxNDc2OTAwNjYwLCJuYmY
+iOjE0NzY5MDA2NjAsImV4cCI6MTQ3NjkwMDY2NH0.4ZcubuZRqZ4s5LdpRUduR705OZ3GBouajWuur3pcj8Q"
+}
+
+Negative Response
+{
+   "data": null,
+   "error": {
+       "message": "Server Error"
+    }
+}
+
+All JWT required routes (not alignment in first phase) should contain the token in headers
+Key: Authorization
+Value: JWT < access_token >

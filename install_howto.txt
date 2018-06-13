@@ -1,0 +1,4 @@
+•	Install python-2.7.12 (select “Add python.exe to Path”)
+•	Install pip -> https://pip.pypa.io/en/stable/installing/
+•	Run “pip install -r requirements_dev.txt” (file is in FlaskServer svn)
+•	Running server -> “python runserver.py”

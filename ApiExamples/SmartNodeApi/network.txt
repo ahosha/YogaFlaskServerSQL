@@ -1,0 +1,64 @@
+/api/v1/data/network
+
+
+{
+  "data": {
+    "PortComboMode4": "Copper", 
+    "SwitchVlanMode": "VLAN aware", 
+    "VlanList": {
+      "PortVlanList0": "1", 
+      "PortVlanList1": "1", 
+      "PortVlanList2": "1", 
+      "PortVlanList3": "1", 
+      "PortVlanList4": "3"
+    }, 
+    "availablePortStates": [
+      "10Mbps/Half Duplex", 
+      "100Mbps/Half Duplex", 
+      "10Mbps/Full Duplex", 
+      "100Mbps/Full Duplex", 
+      "Auto (100 Mbps)", 
+      "Auto Detect", 
+      "Disable"
+    ], 
+    "crcErrors": 0, 
+    "currentPortState": "1Gbps/Full Duplex", 
+    "desiredPortState": "Auto Detect", 
+    "ipParams": {
+      "hsuDefaultGateway": "10.0.0.115", 
+      "hsuIp": "10.0.0.127", 
+      "hsuSubnetMask": "255.255.255.0"
+    }, 
+    "portsData": [
+      {
+        "PortMode": "Auto detect", 
+        "PortVlanList": "1", 
+        "PortVlanMode": "Access"
+      }, 
+      {
+        "PortMode": "Auto detect", 
+        "PortVlanList": "1", 
+        "PortVlanMode": "Access"
+      }, 
+      {
+        "PortMode": "Auto detect", 
+        "PortVlanList": "1", 
+        "PortVlanMode": "Access"
+      }, 
+      {
+        "PortMode": "Auto detect", 
+        "PortVlanList": "1", 
+        "PortVlanMode": "Access"
+      }, 
+      {
+        "PortMode": "Auto detect", 
+        "PortVlanList": "3", 
+        "PortVlanMode": "Access"
+      }
+    ], 
+    "vlanConfiguration": "", 
+    "vlanId": 0, 
+    "vlanPriority": 0, 
+    "wifiNetwork": "192.168.10.1"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "ActualConnectMode": {"object": 36608 , "attr": 1551 , "index": 0, "name": "actualConnectMode"},
+  "HbsServiceMaxNumOfHSUs": { "object": 36608, "attr": 1382,"index": 0, "name": "hbsServiceMaxNumOfHSUs"},
+  "SwCapabilities" : {"object": 2560 , "attr": 1898 , "index": 0, "name": "SwCapabilities"}
+}

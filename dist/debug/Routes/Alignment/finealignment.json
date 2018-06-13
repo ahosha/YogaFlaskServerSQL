@@ -1,0 +1,11 @@
+[
+  {
+    "fineAlignmentLinkState":            {"object": 36608,"attr": 1172,"index": 0,"name": "fineAlignmentLinkState"},
+    "fineAlignmentRssLocal":             {"object": 36608,"attr": 1307,"index": 0,"name": "fineAlignmentRssLocal"},
+    "fineAlignmentCpeRemoteMonitorComp": {"object": 36608, "attr": 1222, "index": 0, "name": "fineAlignmentCpeRemoteMonitorComp"},
+    "alignmentSectorId":                 {"object": 36608,"attr": 1253,"index": 0,"name": "alignmentSectorId "},
+    "currentCbw":                        {"object": 36864, "attr":803, "index": 0, "name": "currentCbw"},
+    "frequency": {"object": 36864,"attr": 679,"index": 0,"name": "frequency"},
+
+  }
+]

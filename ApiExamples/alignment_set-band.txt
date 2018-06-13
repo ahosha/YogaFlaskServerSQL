@@ -1,0 +1,32 @@
+Set Besnds method should contain a pointer (POST method with payload)
+
+POST /api/v1/alignment/set-band
+{
+  "networkId": "1234",
+  "bandId": "5KJ/F58/SU/FCC/INT/BSA",
+  "channelBw": "40",
+  "frequencies": ["5745","5750","5755","5760","5765","5770","5775","5780","5785","5790"] 
+  
+  optional - "frequencies": "all" 
+}
+
+Responses Positive and Reset:
+{
+  "data": {
+    "message": "PendingReset"
+    }
+}
+
+Responses Positive:
+{
+  "data": {
+    "message": "Done"
+    }
+}
+
+Responses Negative:
+{
+  "error": {
+    "message": "Error occured"
+    }
+}

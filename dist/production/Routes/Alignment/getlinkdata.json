@@ -1,0 +1,11 @@
+{
+      "currentBand": { "object": 36608, "attr": 988, "index": 0 },
+      "currentBandId": { "object": 39936, "attr": 993, "index": 0},
+      "currentCbw": { "object": 36864, "attr": 803, "index": 0 },
+      "frequency": { "object": 36864, "attr": 679, "index": 0 },
+      "hsuLinkState": {"object": 36608,"attr": 1172,"index": 0},
+      "antennaConnectionType": { "object": 36864, "attr": 1237, "index": 1 },
+      "hsuAirState": {"object": 36608,"attr": 1171,"index": 0},
+      "sectorType": { "object": 36608, "attr": 1226, "index": 0 }
+}
+

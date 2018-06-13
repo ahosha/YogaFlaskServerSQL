@@ -1,0 +1,36 @@
+{
+    "sectorId": { "object": 36608, "attr": 1253, "index": 1 },
+    "antennaConnectionType": { "object": 36864, "attr": 1237, "index": 1 },
+    "currentFrequency": { "object": 36864, "attr": 679, "index": 1 },
+    "currentBand": { "object": 36608, "attr": 988, "index": 1 },
+    "currentCbw": { "object": 36864, "attr": 803, "index": 1 },
+    "desiredTxPower": { "object": 36864, "attr": 590, "index": 1 },
+    "minTxPower": { "object": 36864, "attr": 797, "index": 1 },
+    "maxTxPower": { "object": 36864, "attr": 800, "index": 200 },
+    "antennaGain": { "object": 36864, "attr": 918, "index": 1 },
+    "minAntennaGain": { "object": 36864, "attr": 921, "index": 1 },
+    "attachedAntennaIndication": { "object": 36864, "attr": 1936, "index": 1 },
+    "AirComboSubBandDfsState": { "object": 39936, "attr": 1448, "index": 1 },
+    "AirDfsState": { "object": 42496, "attr": 1239, "index": 1 },
+    "maxAntennaGain": { "object": 36864, "attr": 920, "index": 1 },
+    "antennaType": { "object": 36864, "attr": 903, "index": 1 },
+    "txRatio": { "object": 43264, "attr": 1285, "index": 0 },
+    "range": { "object": 36608, "attr": 1181, "index": 0 },
+    "cableLoss": { "object": 36864, "attr": 919, "index": 1 },
+    "geoLocation": {
+      "object": 36608,
+      "attr": 1391,
+      "index": 0
+    },
+    "altitude":     { "object": 40960, "attr": 1147, "index": 0 },
+    "aggregateCapacity": { "object": 36352, "attr": 1500, "index": 0 },
+  "options": {
+    "antennaTypeList": [
+      "Dual",
+      "External"
+    ],
+    "cbwList": [ ]
+  },
+    "HbsAirConfBEPercentage": {"object": 48384 , "attr":1858 , "index": 0, "name": "HbsAirConfBEPercentage"},
+    "alignmentAvailableChannelsStr": {"object": 36864, "attr":664, "index": 0, "name": "alignmentAvailableChannelsStr"}
+  }
